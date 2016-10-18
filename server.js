@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 4040;
 
 app.get('/', (req, res) => {
-  res.send('Virtual Reality is the future');
+  res.send('Virtual Reality is the future. You know :)');
 });
 
 app.listen(port, () => {
