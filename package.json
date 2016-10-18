@@ -1,0 +1,23 @@
+{
+  "name": "oculus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha ",
+    "start": "node_modules/.bin/babel-node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.8.0",
+    "eslint-plugin-import": "^2.0.1",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0"
+  }
+}
