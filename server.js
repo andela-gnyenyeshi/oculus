@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 4040;
 
 app.get('/', (req, res) => {
-  res.send('Virtual Reality is the future. You know :)');
+  res.send('Virtual Reality is the future. You already know :)');
 });
 
 app.get('/akirachix', (req, res) => {
