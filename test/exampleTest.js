@@ -16,5 +16,14 @@ describe('Tests', () => {
           done();
         });
     });
+
+    it('Tests Systems route', (done) => {
+      supertest(app)
+      .get('/systems')
+      .end((err, result) => {
+        expect(result.status).to.equal(200);
+        done();
+      });
+    });
   });
 });
