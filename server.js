@@ -11,6 +11,10 @@ app.get('/akirachix', (req, res) => {
   res.status(200).send('All Systems Go');
 });
 
+app.get('/systems', (req, res) => {
+  res.status(200).send('Lydia and Ruth and Winnie are rockstars!!');
+});
+
 app.listen(port, () => {
   console.log('Listening on port ' + port);
 });
